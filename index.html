@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadav Hachamov - Builder & PM</title>
+  <meta name="description" content="AI Builder & PM portfolio - shipping real products that solve real problems.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Dot Navigation -->
+  <nav class="dot-nav" aria-label="Section navigation">
+    <a href="#hero" class="dot active" data-section="hero" aria-label="About me"><span class="dot-label">About</span></a>
+    <a href="#clinka" class="dot" data-section="clinka" aria-label="Clinka project"><span class="dot-label">Clinka</span></a>
+    <a href="#psych" class="dot" data-section="psych" aria-label="Psych Assessment project"><span class="dot-label">PsychEval</span></a>
+    <a href="#contact" class="dot" data-section="contact" aria-label="Contact"><span class="dot-label">Contact</span></a>
+  </nav>
+
+  <!-- ===================== SECTION 1: HERO ===================== -->
+  <section id="hero" class="section hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow hero-glow--1"></div>
+    <div class="hero-glow hero-glow--2"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge anim-fade-up">Builder & PM</div>
+      <h1 class="hero-title anim-fade-up anim-delay-1">
+        Nadav <span class="text-gradient">Hachamov</span>
+      </h1>
+      <p class="hero-subtitle anim-fade-up anim-delay-2">
+        I identify real problems, design the solution, and ship it.<br>
+        From user research to production code.
+      </p>
+      <p class="hero-desc anim-fade-up anim-delay-3">
+        4+ years at monday.com as the sole UX researcher for Work Management,
+        now building AI-powered tools and shipping full products end-to-end.
+        Psychology background, product mindset, code in my hands.
+      </p>
+
+      <div class="hero-links anim-fade-up anim-delay-4">
+        <a href="https://linkedin.com/in/nadav-hachamov" target="_blank" rel="noopener" class="hero-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/nadavbotan" target="_blank" rel="noopener" class="hero-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="mailto:Nadavh52@gmail.com" class="hero-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Email
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll-hint anim-fade-up anim-delay-5">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTION 2: CLINKA ===================== -->
+  <section id="clinka" class="section project-section">
+    <div class="project-glow project-glow--teal"></div>
+
+    <div class="project-container">
+      <div class="project-header">
+        <span class="project-number anim-fade-up">01</span>
+        <h2 class="project-title anim-fade-up anim-delay-1">
+          Clinka <span class="text-teal">Clinic Manager</span>
+        </h2>
+        <p class="project-tagline anim-fade-up anim-delay-2">
+          A mobile app that replaced 4 tools with one, for a real psychologist's daily practice.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <!-- Story Column -->
+        <div class="project-story">
+          <div class="story-card anim-fade-up">
+            <div class="story-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h3>The Problem</h3>
+            <p>
+              A psychologist running a solo private clinic was juggling Google Calendar for scheduling,
+              handwritten notes for payment tracking, and mental math for monthly revenue.
+              Cancellation patterns were invisible. Payment debts accumulated silently.
+              Rescheduling a single session meant fighting with Google's recurring events.
+            </p>
+          </div>
+
+          <div class="story-card anim-fade-up anim-delay-1">
+            <div class="story-icon story-icon--green">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3>The Solution</h3>
+            <p>
+              A Hebrew-native Android app that handles the full daily workflow:
+              add patients with recurring schedules, confirm sessions with one tap,
+              track payments and debts automatically, get push notifications before sessions,
+              and sync everything to Google Calendar.
+            </p>
+          </div>
+
+          <div class="story-card anim-fade-up anim-delay-2">
+            <div class="story-icon story-icon--purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <h3>PM Thinking</h3>
+            <p>
+              I wrote the full PRD from scratch based on real user conversations.
+              Prioritized ruthlessly: v1 shipped with the 6 highest-impact features,
+              deferring multi-user support and clinical notes. Designed the data model,
+              tested with the actual user, iterated on real feedback, and shipped the APK.
+            </p>
+          </div>
+        </div>
+
+        <!-- Screenshots Column -->
+        <div class="project-screenshots">
+          <div class="phone-mockup anim-fade-right anim-delay-1">
+            <div class="phone-frame">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <img src="assets/clinka-1.png" alt="Clinka Dashboard - revenue tracking, weekly sessions chart, payment status" onerror="this.parentElement.classList.add('placeholder')">
+                <div class="placeholder-text">Dashboard Screenshot</div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-mockup phone-mockup--offset anim-fade-right anim-delay-2">
+            <div class="phone-frame">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <img src="assets/clinka-2.png" alt="Clinka Calendar - weekly view with color-coded sessions" onerror="this.parentElement.classList.add('placeholder')">
+                <div class="placeholder-text">Calendar Screenshot</div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-mockup phone-mockup--offset-2 anim-fade-right anim-delay-3">
+            <div class="phone-frame">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <img src="assets/clinka-3.png" alt="Clinka Patient List - search, patient cards with schedule info" onerror="this.parentElement.classList.add('placeholder')">
+                <div class="placeholder-text">Patient List Screenshot</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tech Stack -->
+      <div class="tech-stack anim-fade-up">
+        <span class="tech-tag">React Native</span>
+        <span class="tech-tag">Expo</span>
+        <span class="tech-tag">TypeScript</span>
+        <span class="tech-tag">Supabase</span>
+        <span class="tech-tag">Zustand</span>
+        <span class="tech-tag">Google Calendar API</span>
+        <span class="tech-tag">Push Notifications</span>
+        <span class="tech-tag">Hebrew RTL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTION 3: PSYCH ASSESSMENT ===================== -->
+  <section id="psych" class="section project-section">
+    <div class="project-glow project-glow--orange"></div>
+
+    <div class="project-container">
+      <div class="project-header">
+        <span class="project-number anim-fade-up">02</span>
+        <h2 class="project-title anim-fade-up anim-delay-1">
+          PsychEval <span class="text-orange">Assessment System</span>
+        </h2>
+        <p class="project-tagline anim-fade-up anim-delay-2">
+          Turning hours of manual neuropsychological scoring into a one-click professional report.
+        </p>
+      </div>
+
+      <div class="project-grid project-grid--reverse">
+        <!-- Screenshots Column -->
+        <div class="project-screenshots project-screenshots--browser">
+          <div class="browser-mockup anim-fade-left anim-delay-1">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <div class="browser-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="browser-url">psych-assessment.vercel.app</div>
+              </div>
+              <div class="browser-screen">
+                <img src="assets/psych-1.png" alt="Patient dashboard - assessment list with protocols and status" onerror="this.parentElement.classList.add('placeholder')">
+                <div class="placeholder-text">Patient Dashboard Screenshot</div>
+              </div>
+            </div>
+          </div>
+          <div class="browser-mockup browser-mockup--offset anim-fade-left anim-delay-2">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <div class="browser-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="browser-url">psych-assessment.vercel.app/assessment</div>
+              </div>
+              <div class="browser-screen">
+                <img src="assets/psych-2.png" alt="Z-Score visualization - color-coded horizontal bar chart" onerror="this.parentElement.classList.add('placeholder')">
+                <div class="placeholder-text">Z-Score Chart Screenshot</div>
+              </div>
+            </div>
+          </div>
+          <div class="browser-mockup browser-mockup--offset-2 anim-fade-left anim-delay-3">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <div class="browser-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="browser-url">psych-assessment.vercel.app/export</div>
+              </div>
+              <div class="browser-screen">
+                <img src="assets/psych-3.png" alt="Assessment entry form - Z-scores, timing, test categories" onerror="this.parentElement.classList.add('placeholder')">
+                <div class="placeholder-text">Assessment Entry Screenshot</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Story Column -->
+        <div class="project-story">
+          <div class="story-card anim-fade-up">
+            <div class="story-icon story-icon--orange">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h3>The Problem</h3>
+            <p>
+              Neuropsychologists assessing children use standardized test batteries with
+              hundreds of tasks across 5 different protocols. The entire workflow was Excel-based:
+              manually entering Z-scores, color-coding cells by hand, creating charts from scratch,
+              and copy-pasting everything into Word documents. Each report took hours.
+              Errors were common and hard to catch.
+            </p>
+          </div>
+
+          <div class="story-card anim-fade-up anim-delay-1">
+            <div class="story-icon story-icon--green">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3>The Solution</h3>
+            <p>
+              A full-stack web app with 5 pre-configured assessment protocols
+              and around 300 tasks. Psychologists select a protocol, enter Z-scores with auto-save,
+              and instantly see color-coded bar charts (green/yellow/red).
+              One click generates a professional Word document with charts, tables,
+              and optional password protection - or exports directly to Google Sheets.
+            </p>
+          </div>
+
+          <div class="story-card anim-fade-up anim-delay-2">
+            <div class="story-icon story-icon--purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <h3>PM Thinking</h3>
+            <p>
+              Designed the data model for 5 clinical protocols with a snapshot pattern
+              that lets each assessment work independently. Defined the 7-level Z-score
+              categorization system with Hebrew labels. Prioritized auto-save and
+              drag-and-drop reordering based on user workflow observation.
+              Wrote the complete 2,900-line PRD and interactive HTML prototype before writing a single line of code.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tech Stack -->
+      <div class="tech-stack anim-fade-up">
+        <span class="tech-tag">Next.js</span>
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">TypeScript</span>
+        <span class="tech-tag">Prisma</span>
+        <span class="tech-tag">Supabase</span>
+        <span class="tech-tag">Recharts</span>
+        <span class="tech-tag">Word Export</span>
+        <span class="tech-tag">Google Sheets API</span>
+        <span class="tech-tag">Hebrew RTL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTION 4: CONTACT ===================== -->
+  <section id="contact" class="section contact-section">
+    <div class="hero-glow hero-glow--1"></div>
+
+    <div class="contact-content">
+      <h2 class="contact-title anim-fade-up">
+        Let's <span class="text-gradient">build</span> something.
+      </h2>
+      <p class="contact-desc anim-fade-up anim-delay-1">
+        I'm looking for my next role - AI Enablement, Product Management, or anything
+        where building real things matters more than slide decks.
+      </p>
+
+      <div class="contact-links anim-fade-up anim-delay-2">
+        <a href="mailto:Nadavh52@gmail.com" class="contact-btn contact-btn--primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Nadavh52@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/nadav-hachamov" target="_blank" rel="noopener" class="contact-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/nadavbotan" target="_blank" rel="noopener" class="contact-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+      </div>
+
+      <div class="contact-footer anim-fade-up anim-delay-3">
+        <p>Built with vanilla HTML, CSS & JS. No frameworks needed.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
